@@ -90,16 +90,18 @@ Follow on screen prompts to add members to your project team
                         New Team Member
 ==============================================================
 `);
+getStarted();
 
-inquirer.prompt(questions).then (function (responses){
-    getEmployeeBasics(responses);
-});
+function getStarted () {
+    inquirer.prompt(questions).then (function (responses){
+        getEmployeeBasics(responses);
+    });
+}
 
 // inquirer questions
 async function getEmployeeBasics (responses) {
     
     newName = responses.name;
-    console.log(newName);
     newID = responses.id;
     newEmail = responses.email;
     newRole = responses.role;
@@ -173,7 +175,7 @@ function wrapUpInput() {
                         New Team Member
     ==============================================================
                 `);
-                getEmployeeBasics();
+                getStarted();
             } else {
                 getHTML();
             }
