@@ -1,7 +1,7 @@
 # teamDirectory
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)![badge: Made with-JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-Yellow)![badge: Uses-Inquirer](https://img.shields.io/badge/Uses-Inquirer-orange)![badge: Open Source-Love](https://img.shields.io/badge/Open%20Source-Love-purple)[badge: Made with-HTML](https://img.shields.io/badge/Made%20with-HTML-red)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)![badge: Made with-JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-Yellow)![badge: Uses-Inquirer](https://img.shields.io/badge/Uses-Inquirer-orange)
 
 ## Description
 
@@ -39,6 +39,21 @@ Follow the in console prompts to fill in the required fields for each employee t
 ![site example](./assets/Site.png)
 
 The generated file is saved in (./teamDirectory/output/team.html) and is overwritten each time the program is run.
+
+## Credits:
+
+Thanks to support from our study group:
+
+- [Plover Brown](https://github.com/rebgrasshopper)
+- [Elliott Jones](https://github.com/JonesElliott)
+- [Tim Sanders](https://github.com/tbsanders5)
+- [Nick Konzen](https://github.com/NTKonzen)
+
+
+## Tests:
+
+Tests for the JavaScript classes underpinning the project's functionality are included in the /tests directory.
+
 
 ## Contributing
 
